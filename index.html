@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/Style.css" />
+    <title>Arash text generator</title>
+  </head>
+  <body>
+    <section id="text-generator-container">
+      <section id="text-section">
+        <button id="copy-to-clipboard-button">Copy to clipboard</button>
+        <textarea name="" id="text-area" placeholder="Your text"></textarea>
+      </section>
+      <section id="options-section">
+        <section id="text-types-container">
+          <button class="type-button" id="paragraph-type">Paragraph</button>
+          <button class="type-button" id="line-type">Line</button>
+          <button class="type-button" id="word-type">Word</button>
+        </section>
+        <section id="count-section">
+          <button class="count-button" id="decrease-button">-</button>
+          <input type="text" id="show-count" value="0" min="" max="100" />
+          <button class="count-button" id="increase-button">+</button>
+        </section>
+      </section>
+    </section>
+  </body>
+  <script src="Javascript/Code.js" defer></script>
+</html>
